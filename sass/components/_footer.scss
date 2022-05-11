@@ -1,0 +1,8 @@
+.footer__logo {
+  @include logo;
+  margin-bottom: 20px;
+  display: block;
+  &--accent {
+    color: #ffffff;
+  }
+}
