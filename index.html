@@ -326,44 +326,44 @@
       <section class="clients section">
         <div class="container">
           <h2 class="title">Постоянные клиенты</h2>
-          <ul class="clients-list">
-            <li class="clients-item">
-              <a href="" class="clients-link">
+          <ul class="clients__list">
+            <li class="clients__item">
+              <a href="" class="clients__link">
                 <svg width="106px" height="60px">
                   <use href="./images/symbol-defs.svg#logo1"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-item">
-              <a href="" class="clients-link">
+            <li class="clients__item">
+              <a href="" class="clients__link">
                 <svg width="106px" height="60px">
                   <use href="./images/symbol-defs.svg#logo2"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-item">
-              <a href="" class="clients-link">
+            <li class="clients__item">
+              <a href="" class="clients__link">
                 <svg width="106px" height="60px">
                   <use href="./images/symbol-defs.svg#logo3"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-item">
-              <a href="" class="clients-link">
+            <li class="clients__item">
+              <a href="" class="clients__link">
                 <svg width="106px" height="60px">
                   <use href="./images/symbol-defs.svg#logo4"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-item">
-              <a href="" class="clients-link">
+            <li class="clients__item">
+              <a href="" class="clients__link">
                 <svg width="106px" height="60px">
                   <use href="./images/symbol-defs.svg#logo5"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-item">
-              <a href="" class="clients-link">
+            <li class="clients__item">
+              <a href="" class="clients__link">
                 <svg width="106px" height="60px">
                   <use href="./images/symbol-defs.svg#logo6"></use>
                 </svg>
@@ -376,62 +376,62 @@
 
     <!--Footer-->
 
-    <footer class="section-footer">
-      <div class="container footer-container">
-        <div class="footer-box">
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__box">
           <a class="footer__logo" href="./index.html">
             Web<span class="footer__logo--accent">Studio</span>
           </a>
-          <address class="footer-address">
-            <ul>
-              <li class="footer-address-item">
+          <address class="address">
+            <ul class="address__list">
+              <li class="address__item">
                 <a
-                  class="footer-map"
+                  class="address__map"
                   href="https://goo.gl/maps/Qj1Kgzcmx4qWc97T7"
                   target="_blank"
                   rel="noreferrer noopener"
                   >г. Киев, пр-т Леси Украинки, 26
                 </a>
               </li>
-              <li class="footer-address-item">
-                <a class="footer-link" href="mailto:info@example.com"
+              <li class="address__item">
+                <a class="address__link" href="mailto:info@example.com"
                   >info@example.com
                 </a>
               </li>
-              <li class="footer-address-item">
-                <a class="footer-link" href="tel:+380991111111"
+              <li class="address__item">
+                <a class="address__link" href="tel:+380991111111"
                   >+38 099 111 11 11
                 </a>
               </li>
             </ul>
           </address>
         </div>
-        <div class="join-box">
-          <p class="join">присоединяйтесь</p>
-          <ul class="join-list">
-            <li class="join-item">
-              <a href="" class="join-link">
+        <div class="join">
+          <p class="join__title">присоединяйтесь</p>
+          <ul class="join__list">
+            <li class="join__item">
+              <a href="" class="join__link">
                 <svg width="20px" height="20px">
                   <use href="./images/symbol-defs.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a href="" class="join-link">
+            <li class="join__item">
+              <a href="" class="join__link">
                 <svg width="20px" height="20px">
                   <use href="./images/symbol-defs.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a href="" class="join-link">
+            <li class="join__item">
+              <a href="" class="join__link">
                 <svg width="20px" height="20px">
                   <use href="./images/symbol-defs.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a href="" class="join-link">
+            <li class="join__item">
+              <a href="" class="join__link">
                 <svg width="20px" height="20px">
                   <use href="./images/symbol-defs.svg#linkedin"></use>
                 </svg>
@@ -439,11 +439,11 @@
             </li>
           </ul>
         </div>
-        <div>
-          <p class="mailing-title">Подпишитесь на рассылку</p>
-          <form class="mailing-form">
-            <input type="text" class="mailing-input" placeholder="E-mail" />
-            <button type="submit" class="mailing-button">
+        <div class="mailing">
+          <p class="mailing__title">Подпишитесь на рассылку</p>
+          <form class="mailing__form">
+            <input type="text" class="mailing__input" placeholder="E-mail" />
+            <button type="submit" class="mailing__button">
               Подписаться
               <svg width="24px" height="24px">
                 <use href="./images/sprite.svg#icon-send"></use>
@@ -456,36 +456,36 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal-close-btn" data-modal-close>
+        <button type="button" class="modal__close" data-modal-close>
           <svg width="10px" height="10px">
             <use href="./images/sprite.svg#vector"></use>
           </svg>
         </button>
-        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+        <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
         <form action="">
-          <label for="name" class="modal-name">Имя</label>
-          <div class="modal-box">
-            <input type="text" class="modal-input" name="name" id="name" />
-            <svg width="12" height="12" class="modal-icon">
+          <label for="name" class="modal__name">Имя</label>
+          <div class="modal__box">
+            <input type="text" class="modal__input" name="name" id="name" />
+            <svg width="12" height="12" class="modal__icon">
               <use href="./images/sprite.svg#modal-name"></use>
             </svg>
           </div>
-          <label for="phone" class="modal-name">Телефон</label>
-          <div class="modal-box">
-            <input type="text" class="modal-input" name="phone" id="phone" />
-            <svg width="13" height="13" class="modal-icon">
+          <label for="phone" class="modal__name">Телефон</label>
+          <div class="modal__box">
+            <input type="text" class="modal__input" name="phone" id="phone" />
+            <svg width="13" height="13" class="modal__icon">
               <use href="./images/sprite.svg#modal-phone"></use>
             </svg>
           </div>
-          <label for="envelope" class="modal-name">Почта</label>
-          <div class="modal-box">
+          <label for="envelope" class="modal__name">Почта</label>
+          <div class="modal__box">
             <input
               type="text"
-              class="modal-input"
+              class="modal__input"
               name="envelope"
               id="envelope"
             />
-            <svg width="15" height="12" class="modal-icon">
+            <svg width="15" height="12" class="modal__icon">
               <use href="./images/sprite.svg#modal-envelope"></use>
             </svg>
           </div>
@@ -495,21 +495,21 @@
             id="feedback"
             cols="30"
             rows="10"
-            class="modal-feedback"
+            class="modal__feedback"
             placeholder="Введите текст"
           ></textarea>
-          <label for="acception" class="modal-accept">
+          <label for="acception" class="modal__accept">
             <input
               type="checkbox"
               name="acception"
               id="acception"
-              class="checkbox visually-hidden"
+              class="modal__checkbox visually-hidden"
             />
-            <span class="custom-checkbox"></span>
+            <span class="modal__checkbox--custom"></span>
             Соглашаюсь с рассылкой и принимаю &nbsp;
-            <a href="" class="accept-link">Условия договора</a>
+            <a href="" class="modal__accept--link">Условия договора</a>
           </label>
-          <button type="button" class="modal-send-button">Отправить</button>
+          <button type="button" class="modal__send">Отправить</button>
         </form>
       </div>
     </div>
